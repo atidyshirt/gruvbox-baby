@@ -6,7 +6,7 @@ local the_palette = {
   dark0 = "#0d0e0f",
   dark = "#202020",
   foreground = "#d4be98",
-  background = "#262626",
+  background = "#282828",
   background_dark = "#1d2021",
   background_light = "#32302f",
   medium_gray = "#504945",
@@ -30,7 +30,7 @@ local the_palette = {
 }
 
 the_palette.term = {
-  "#262626", "#ea6962", "#a9b665", "#d8a657", "#7daea3", "#d3869b", "#a9b665", "#d4be98",
+  "#282828", "#ea6962", "#a9b665", "#d8a657", "#7daea3", "#d3869b", "#a9b665", "#d4be98",
   "#928374", "#ae5858", "#6c782e", "#d8a657", "#45707a", "#945e80", "#6f8352", "#a89984",
 }
 
