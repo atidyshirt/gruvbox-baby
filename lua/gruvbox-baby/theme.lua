@@ -25,16 +25,16 @@ function M.setup(config)
     Constant = { fg = c.soft_green },
     CursorIM = { link = "Cursor" },
     CursorLineNr = { fg = c.comment, style = "bold" },
-    Debug = { fg = colors.orange },
+    Debug = { fg = c.orange },
     Define = { fg = c.magenta },
-    Delimiter = { fg = colors.fg0 },
+    Delimiter = { fg = c.foreground },
     Directory = { fg = c.dark_gray },
     Error = { fg = c.red, style = "bold" },
     Exception = { fg = c.red },
     Float = { fg = c.pink },
     Function = { fg = c.clean_green },
     Identifier = { fg = c.blue_gray, style = config.variable_style },
-    Ignore = { fg = colors.grey1 },
+    Ignore = { fg = c.dark_gray },
     Include = { fg = c.magenta },
     Keyword = { fg = c.red, style = config.keyword_style },
     Label = { fg = c.orange },
@@ -47,21 +47,20 @@ function M.setup(config)
     PreCondit = { fg = c.magenta },
     PreProc = { fg = c.magenta },
     Repeat = { fg = c.soft_green },
-    Special = { fg = c.yellow },
-    SpecialChar = { fg = colors.yellow },
+    Special = { fg = c.soft_yellow },
+    SpecialChar = { fg = c.soft_yellow },
     SpecialComment = { fg = c.comment },
     Statement = { fg = c.red },
     StorageClass = { fg = c.orange },
     String = { fg = c.magenta, style = config.string_style },
     Structure = { fg = c.orange },
-    Tag = { fg = colors.orange },
+    Tag = { fg = c.orange },
     Title = { fg = c.foreground },
     Todo = { fg = c.magenta, style = "italic" },
     ToolbarButton = { fg = c.foreground },
     ToolbarLine = { fg = c.foreground },
     Type = { fg = c.soft_yellow },
     Typedef = { fg = c.red },
-    debucPC = { fg = colors.bg0, bg = colors.green },
     debugPc = { bg = c.error_red },
 
     TabLine = { bg = c.dark, fg = c.comment },
@@ -331,7 +330,7 @@ function M.setup(config)
     EasyMotionShade = { fg = c.NONE },
     Visual = { bg = c.medium_gray },
     MultiCursor = { bg = c.background_light },
-    Cursor = { bg = c.medium_gray, fg = c.NONE },
+    Cursor = { bg = c.background_light, fg = c.NONE },
 
     -- mix
     GitSignsCurrentLineBlame = { fg = c.medium_gray },
@@ -493,9 +492,9 @@ function M.setup(config)
 
   if config.transparent_mode then
     theme.base = vim.tbl_extend("force", theme.base, {
-      Visual = { bg = c.milk },
-      MultiCursor = { bg = c.milk },
-      Cursor = { bg = c.soft_green, c.dark },
+      Visual = { bg = c.background_light },
+      MultiCursor = { bg = c.background_light },
+      Cursor = { bg = c.background_light, c.dark },
     })
   end
 
