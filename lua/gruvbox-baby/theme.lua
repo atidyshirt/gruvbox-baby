@@ -34,7 +34,7 @@ function M.setup(config)
     Float = { fg = c.pink },
     Function = { fg = c.clean_green },
     Identifier = { fg = c.blue_gray, style = config.variable_style },
-    Ignore = { fg = c.dark_gray },
+    Ignore = { fg = c.gray },
     Include = { fg = c.magenta },
     Keyword = { fg = c.red, style = config.keyword_style },
     Label = { fg = c.orange },
@@ -47,7 +47,7 @@ function M.setup(config)
     PreCondit = { fg = c.magenta },
     PreProc = { fg = c.magenta },
     Repeat = { fg = c.soft_green },
-    Special = { fg = c.soft_yellow },
+    Special = { fg = c.yellow },
     SpecialChar = { fg = c.soft_yellow },
     SpecialComment = { fg = c.comment },
     Statement = { fg = c.red },
@@ -328,9 +328,9 @@ function M.setup(config)
     PmenuSbar = { bg = c.comment },
     PmenuThumb = { bg = c.foreground },
     EasyMotionShade = { fg = c.NONE },
-    Visual = { bg = c.medium_gray },
-    MultiCursor = { bg = c.background_light },
-    Cursor = { bg = c.background_light, fg = c.NONE },
+    Visual = { bg = c.gray },
+    MultiCursor = { bg = c.medium_gray },
+    Cursor = { bg = c.gray, fg = c.NONE },
 
     -- mix
     GitSignsCurrentLineBlame = { fg = c.medium_gray },
@@ -492,9 +492,9 @@ function M.setup(config)
 
   if config.transparent_mode then
     theme.base = vim.tbl_extend("force", theme.base, {
-      Visual = { bg = c.background_light },
-      MultiCursor = { bg = c.background_light },
-      Cursor = { bg = c.background_light, c.dark },
+      Visual = { bg = c.medium_gray },
+      MultiCursor = { bg = c.medium_gray },
+      Cursor = { bg = c.soft_green },
     })
   end
 
