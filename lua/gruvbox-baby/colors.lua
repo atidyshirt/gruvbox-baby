@@ -5,7 +5,7 @@ local M = {}
 local the_palette = {
   dark0 = "#0d0e0f",
   dark = "#202020",
-  foreground = "#bebebe",
+  foreground = "#d4be98",
   background = "#282828",
   background_dark = "#1d2021",
   background_light = "#32302f",
@@ -30,7 +30,7 @@ local the_palette = {
 }
 
 the_palette.term = {
-  "#282828", "#ea6962", "#a9b665", "#d8a657", "#7daea3", "#d3869b", "#a9b665", "#bebebe",
+  "#282828", "#ea6962", "#a9b665", "#d8a657", "#7daea3", "#d3869b", "#a9b665", "#d4be98",
   "#928374", "#ae5858", "#6c782e", "#d8a657", "#45707a", "#945e80", "#6f8352", "#a89984",
 }
 
@@ -39,12 +39,12 @@ the_palette.diff = {
   add = "#a9b665",
   change = "#7daea3",
   delete = "#ea6962",
-  text = "#bebebe",
+  text = "#d4be98",
 }
 M.p = the_palette
 
 local original_palette = vim.tbl_extend("force", the_palette, {
-  foreground = "#bebebe",
+  foreground = "#d4be98",
   soft_green = "#a9b665",
   forest_green = "#a9b665",
   soft_yellow = "#fabd2f",
