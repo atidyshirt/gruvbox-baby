@@ -39,7 +39,7 @@ the_palette.diff = {
   add = "#6f8352",
   change = "#45707a",
   delete = "#ae5858",
-  text = "#d4be98",
+  text = "#AE8358",
 }
 M.p = the_palette
 
