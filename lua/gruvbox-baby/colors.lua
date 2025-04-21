@@ -36,9 +36,9 @@ the_palette.term = {
 
 -- these are backgrounds
 the_palette.diff = {
-  add = "#a9b665",
-  change = "#7daea3",
-  delete = "#ea6962",
+  add = "#6f8352",
+  change = "#45707a",
+  delete = "#ae5858",
   text = "#d4be98",
 }
 M.p = the_palette
