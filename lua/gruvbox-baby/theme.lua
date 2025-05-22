@@ -379,8 +379,8 @@ function M.setup(config)
 
     FloatBorder = { bg = c.background },
     -- Cmp
-    CmpDocumentation = { fg = c.foreground, bg = c.bg_float },
-    CmpDocumentationBorder = { fg = c.medium_gray, bg = c.bg_float },
+    CmpDocumentation = { fg = c.foreground, bg = c.background_light },
+    CmpDocumentationBorder = { fg = c.medium_gray, bg = c.background_light },
 
     CmpItemAbbr = { fg = c.foreground },
     CmpItemAbbrDeprecated = { fg = c.milk, style = "strikethrough" },
