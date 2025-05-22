@@ -41,7 +41,7 @@ function M.setup(config)
     Macro = { fg = c.soft_green },
     MoreMsg = { fg = c.foreground },
     Normal = { fg = c.foreground, bg = c.background },
-    NormalFloat = { fg = c.foreground, bg = c.background },
+    NormalFloat = { fg = c.foreground, bg = c.background_light },
     Number = { fg = c.pink },
     Operator = { fg = c.orange },
     PreCondit = { fg = c.magenta },
@@ -377,7 +377,7 @@ function M.setup(config)
     IndentBlanklineSpaceCharBlankline = { fg = "#414141" },
     IndentBlanklineContextChar = { fg = "#505050" },
 
-    FloatBorder = { bg = c.background },
+    FloatBorder = { bg = c.background_light },
     -- Cmp
     CmpDocumentation = { fg = c.foreground, bg = c.background_light },
     CmpDocumentationBorder = { fg = c.medium_gray, bg = c.background_light },
